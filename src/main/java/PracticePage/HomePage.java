@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class HomePage extends BasePage{
+public class HomePage extends BasePage123{
 	
 	@FindBy(xpath="(//*[@title='Women'][1])")
 	private WebElement WomenTab;
