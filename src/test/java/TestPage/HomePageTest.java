@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import PracticePage.BasePage;
 import PracticePage.HomePage;
 
-public class HomePageTest {
+public class HomePageTest 123{
 	BasePage bp;
 	HomePage hp;
 	
