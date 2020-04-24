@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87708" started-at="2020-04-23T11:12:50Z" finished-at="2020-04-23T11:14:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="87708" started-at="2020-04-23T11:12:50Z" finished-at="2020-04-23T11:14:18Z">
+      <class name="TestPage.ProductPageTest">
+        <test-method status="PASS" signature="VerifyAddedtoCart()[pri:0, instance:TestPage.ProductPageTest@9175d8]" name="VerifyAddedtoCart" duration-ms="9513" started-at="2020-04-23T11:12:50Z" finished-at="2020-04-23T11:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddedtoCart -->
+        <test-method status="PASS" signature="VerifyDescription()[pri:0, instance:TestPage.ProductPageTest@9175d8]" name="VerifyDescription" duration-ms="6092" started-at="2020-04-23T11:13:00Z" finished-at="2020-04-23T11:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDescription -->
+        <test-method status="PASS" signature="VerifyProductCount()[pri:0, instance:TestPage.ProductPageTest@9175d8]" name="VerifyProductCount" duration-ms="3827" started-at="2020-04-23T11:13:06Z" finished-at="2020-04-23T11:13:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductCount -->
+        <test-method status="PASS" signature="VerifySize()[pri:0, instance:TestPage.ProductPageTest@9175d8]" name="VerifySize" duration-ms="19207" started-at="2020-04-23T11:13:10Z" finished-at="2020-04-23T11:13:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySize -->
+        <test-method status="FAIL" signature="VerifyTweetandShare()[pri:0, instance:TestPage.ProductPageTest@9175d8]" name="VerifyTweetandShare" duration-ms="25394" started-at="2020-04-23T11:13:29Z" finished-at="2020-04-23T11:13:54Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-default btn-twitter']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ACER-PC', ip: '192.168.42.54', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c66030719841fdfdd962d21cc9fb3bd1
+*** Element info: {Using=xpath, value=//button[@class='btn btn-default btn-twitter']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-default btn-twitter']"}
+  (Session info: chrome=81.0.4044.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ACER-PC', ip: '192.168.42.54', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c66030719841fdfdd962d21cc9fb3bd1
+*** Element info: {Using=xpath, value=//button[@class='btn btn-default btn-twitter']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
+at TestPage.ProductPageTest.VerifyTweetandShare(ProductPageTest.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTweetandShare -->
+      </class> <!-- TestPage.ProductPageTest -->
+      <class name="TestPage.HomePageTest">
+        <test-method status="PASS" signature="VerifyDressesTab()[pri:0, instance:TestPage.HomePageTest@10b7e3c]" name="VerifyDressesTab" duration-ms="7883" started-at="2020-04-23T11:13:54Z" finished-at="2020-04-23T11:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDressesTab -->
+        <test-method status="PASS" signature="VerifyNewsLetter()[pri:0, instance:TestPage.HomePageTest@10b7e3c]" name="VerifyNewsLetter" duration-ms="5299" started-at="2020-04-23T11:14:02Z" finished-at="2020-04-23T11:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewsLetter -->
+        <test-method status="PASS" signature="VerifyTShirtsTab()[pri:0, instance:TestPage.HomePageTest@10b7e3c]" name="VerifyTShirtsTab" duration-ms="5233" started-at="2020-04-23T11:14:08Z" finished-at="2020-04-23T11:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTShirtsTab -->
+        <test-method status="PASS" signature="VerifyWomenTab()[pri:0, instance:TestPage.HomePageTest@10b7e3c]" name="VerifyWomenTab" duration-ms="5170" started-at="2020-04-23T11:14:13Z" finished-at="2020-04-23T11:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWomenTab -->
+      </class> <!-- TestPage.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
